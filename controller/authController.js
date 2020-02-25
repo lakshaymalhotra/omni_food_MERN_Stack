@@ -188,6 +188,7 @@ module.exports.forgotPassword = async (req, res) => {
   if (!user) {
     res.end("User not found");
   }
+  // if(user==null){res.end("user empty")}
   let token = user.createResetToken();
   await user.save({ validateBeforeSave: false });
   let message =

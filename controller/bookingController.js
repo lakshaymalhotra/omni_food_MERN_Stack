@@ -1,4 +1,4 @@
-const stripe = require("stripe")("sk_test_GxyRWg4C1haZYuPGYoIot1Ny00ShWkyZu1");
+const stripe = require("stripe")("sk_test_R7S2YbPU8xHFZ0fMjibHJjCC00MO2NCCLn");
 const planModel = require("../model/planmodel");
 module.exports.getCheckout = async (req, res) => {
   var id = req.params["id"];
@@ -18,8 +18,8 @@ module.exports.getCheckout = async (req, res) => {
         quantity: 1
       }
     ],
-    success_url: "https://omnifood-full-stack.herokuapp.com/home",
-    cancel_url: "https://omnifood-full-stack.herokuapp.com/login"
+    success_url: "http://localhost/home",
+    cancel_url: "https://localhost"
   });
   res
     .status(201)

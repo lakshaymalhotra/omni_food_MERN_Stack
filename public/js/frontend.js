@@ -5,7 +5,7 @@ const meForm = document.querySelector(".update-form");
 const resetForm = document.querySelector(".reset-form");
 const forgetEmailForm = document.querySelector(".forget-form");
 const forgetPassForm = document.querySelector(".forgetPass-form");
-const stripe=Stripe("pk_test_AZcTWCwkCLxnpB7GDGFGrXfX00dFuMUYQE");
+const stripe=Stripe("pk_test_n963sFIwbHBYLX6CoBqvi9pQ00rBTqGK9o");
 const bookButtons=document.querySelectorAll(".bookPlan");
 const bookPlan=async planId=>{
   try{

@@ -1,2 +1,2 @@
-module.exports.emailPass="1234";
-module.exports.adminEmail="bhavyamanocha849@gmail.com";
+module.exports.emailPass="tqbxixrupwtuilwq";
+module.exports.adminEmail="lakshaymalhotra17@gmail.com";

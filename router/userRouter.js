@@ -32,6 +32,7 @@ userRouter.route("/updatePassword").patch(protectRoute, updateMyPassword);
 userRouter.route("/signup").post(userSignUp);
 userRouter.route("/login").post(loginUser);
 userRouter.route("/logout").get(logoutUser);
+userRouter.route("/alluser").get(getAllUser);
 userRouter.route("/forgotPassword").post(forgotPassword);
 userRouter.route("/resetPassword").patch(resetPassword);
 
